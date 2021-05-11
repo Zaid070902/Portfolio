@@ -1,0 +1,19 @@
+.contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5% 5%;
+  color: white;
+}
+
+#Testimonial {
+  background-color: #111;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Test {
+  box-shadow: 0 5px 20px cyan;
+  margin: 20%;
+}

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/c0daf1dc6c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous"
+  />
+
+    <link rel="stylesheet" href="./Testimonial.css">
+    <link rel="stylesheet" href="./projects.css" />
+    <link rel="stylesheet" href="./Timeline.css" />
+    <link rel="stylesheet" href="./About.css" />
+    <link rel="stylesheet" href="./landing.css" />
+    <link rel="stylesheet" href="./navbar.css" />
+    <link rel="stylesheet" href="./Skills.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <ul class="navbar-links">
+        <li class="navbar-link"><a href="#landing" class="link-text">Home</a></li>
+        <li class="navbar-link">
+          <a href="#about-section" class="link-text">About Me</a>
+        </li>
+        <li class="navbar-link">
+          <a href="#projects-section" class="link-text">Portfolio</a>
+        </li>
+        <li class="navbar-link">
+          <a href="#Testimonial" class="link-text">testimonial</a>
+        </li>
+        <li class="navbar-link">
+          <a href="#" class="link-text">Contact</a>
+        </li>
+      </ul>
+      <button class="navbar-button" onclick="toggleNavbar()">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Landing -->
+    <div id="landing">
+      <div class="me">
+        <div class="name">Zaid Flandorp</div>
+        <div class="description">
+          <span style="color: cyan">Aspiring</span> Front End-Developer.
+        </div>
+      </div>
+    </div>
+    <!-- Landing -->
+
+    <!-- About -->
+    <section id="about-section">
+      <div class="about">
+        <div class="about-heading">About Me</div>
+        <div class="my-name">
+          <span style="color: cyan">Zaid</span> Flandorp
+        </div>
+        <div class="About-me">
+          I am an introverted individual. I'm patient and willing to learn new
+          things. I'm also comfortable with doing the same thing over and over
+          and I have always wanted to be a software developer.
+        </div>
+      </div>
+      <img class="image" src="./Images/me.png" alt="" />
+
+    </section>
+    <!-- About -->
+
+    <!-- Skills -->
+
+    <section id="skills-section">
+      <div class="skill-heading"> My Skills</div>
+
+      <div class="skill-box">
+        <div class="Skills">
+          <div class="skill html"><i class="fab fa-html5"></i></div>
+          <div class="skill python"><i class="fab fa-python"></i></div>
+          <div class="skill css"><i class="fab fa-css3-alt"></i></div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Skills -->
+
+    <!-- timeline -->
+    <section id="timeline-section">
+    <div class="timeline">
+      <div class="line"></div>
+      <div class="cards c1">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim mollitia
+          consequuntur nam blanditiis, ea quae in deserunt, aliquam eaque magnam
+          cumque nostrum sint impedit. Ratione nostrum possimus voluptatum ex
+          magni!
+        </p>
+      </div>
+
+      <div class="card c2">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim mollitia
+          consequuntur nam blanditiis, ea quae in deserunt, aliquam eaque magnam
+          cumque nostrum sint impedit. Ratione nostrum possimus voluptatum ex
+          magni!
+        </p>
+      </div>
+
+      <div class="cards c3">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim mollitia
+          consequuntur nam blanditiis, ea quae in deserunt, aliquam eaque magnam
+          cumque nostrum sint impedit. Ratione nostrum possimus voluptatum ex
+          magni!
+        </p>
+      </div>
+    </div>
+   </section>
+    <!-- timeline -->
+
+    <!-- Projects -->
+    <section id="projects-section">
+      <div class="project">
+        <div class="project-card p1">
+          <img class="card-img pc1" src="./Images/Form.png" alt="" />
+          <div class="link">
+            <a href="https://nervous-knuth-d56ea4.netlify.app/" class="Button" 
+              >Live</a
+            >
+            <a href="https://github.com/Zaid070902/Contact-form" class="Button"
+              >Github</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card p2">
+          <img class="card-img "  src="./Images/Time.png" alt="" />
+          <div class="card-items">
+          <div class="link">
+            <a href="https://gifted-hamilton-a9de0e.netlify.app/" class="Button"
+              >Live</a
+            >
+            <a href="https://github.com/Zaid070902/My-Timeline" class="Button"
+              >Github</a
+            >
+          </div>
+        </div>
+      </div>
+
+        <div class="project-card p3">
+          <img class="card-img" src="./Images/Test.png" alt="" />
+          <div class="card-items">
+          <div class="link">
+            <a href="https://cranky-curran-f67666.netlify.app/" class="Button"
+              >Live</a
+            >
+            <a
+              href="https://github.com/Zaid070902/My-testimonial"
+              class="Button"
+              >Github</a
+            >
+          </div>
+        </div>
+      </div>
+          </section>
+    <!-- Projects -->
+
+
+    <!-- testimonial -->
+<div id="Testimonial">
+    <div class="owl-carousel">
+      <div class="Test t1">
+        <!-- <img src="img2.jpg" alt="" /> -->
+        <div class="contents">
+          <q>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam,
+            cumque. Quod, fuga corrupti? Illo odit quam architecto
+            exercitationem sint! Nam sed ea officiis ratione minus accusamus
+            iusto esse odit nostrum?
+          </q>
+          <div class="persons-name"><span style="color: cyan;">Lorem</span>, ipsum dolor.</div>
+        </div>
+      </div>
+
+      <div class="Test t1">
+        <!-- <img src="img2.jpg" alt="" /> -->
+        <div class="contents">
+          <q>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam,
+            cumque. Quod, fuga corrupti? Illo odit quam architecto
+            exercitationem sint! Nam sed ea officiis ratione minus accusamus
+            iusto esse odit nostrum?
+          </q>
+          <div class="persons-name"><span style="color: cyan;">Lorem</span>, ipsum dolor.</div>
+        </div>
+      </div>
+
+      <div class="Test t1">
+        <!-- <img src="img2.jpg" alt="" /> -->
+        <div class="contents">
+          <q>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam,
+            cumque. Quod, fuga corrupti? Illo odit quam architecto
+            exercitationem sint! Nam sed ea officiis ratione minus accusamus
+            iusto esse odit nostrum?
+          </q>
+          <div class="persons-name"><span style="color: cyan;">Lorem</span>, ipsum dolor.</div>
+        </div>
+      </div>
+    </div>
+    <!-- Script tags under here -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true,
+          Responsive: {
+            0: {
+              items: 1,
+              stagePadding: 0,
+            },
+            500: {
+              items: 1,
+              margin: 10,
+              stagePadding: 10,
+            },
+            800: {
+              margin: 50,
+              stagePadding: 100,
+            },
+          },
+        });
+      });
+    </script>
+
+</div>
+    <!-- testimonial -->
+
+  </body>
+
+
+
+  <script>
+    function toggleNavbar() {
+      document
+        .getElementsByClassName("navbar-links")[0]
+        .classList.toggle("active");
+    }
+  </script>
+</html>
