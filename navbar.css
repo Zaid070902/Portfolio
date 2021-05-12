@@ -35,6 +35,7 @@
   outline: none;
   padding: 20px;
   color: cyan;
+  /* width: 100%; */
 }
 
 .link-text {
