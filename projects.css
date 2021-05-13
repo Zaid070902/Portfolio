@@ -56,3 +56,43 @@
   height: 270px;
   width: 400px;
 }
+
+.pc4 {
+  height: 270px;
+  width: 400px;
+}
+
+.pc5 {
+  height: 270px;
+  width: 400px;
+}
+
+.iconify {
+  font-size: 40px;
+}
+
+.ghub {
+  font-size: 40px;
+}
+
+.gh-btn:hover::after {
+  content: "Github";
+}
+
+.gh-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.net-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.net-btn:hover::after {
+  content: "Netlify";
+}
