@@ -1,0 +1,42 @@
+#education-section {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-color: #111;
+}
+
+.school {
+  box-shadow: 0 5px 20px cyan;
+  padding: 5%;
+  margin: 30px;
+}
+
+.Lifechoices {
+  box-shadow: 0 5px 20px cyan;
+  padding: 5%;
+  margin: 30px;
+}
+
+.section-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 10%;
+  border-bottom: 1px solid cyan;
+  padding: 30px;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-bottom: 1px solid cyan;
+}

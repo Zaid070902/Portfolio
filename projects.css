@@ -3,8 +3,8 @@
   flex-wrap: wrap;
   justify-content: center;
   background-color: #111;
-  /* height: 100vh;
-  width: 100vw; */
+  height: auto;
+  width: 100vw;
 }
 
 .project {
@@ -22,7 +22,7 @@
   justify-content: center;
   flex-direction: column;
   box-shadow: 0 5px 15px cyan;
-  margin: 40px;
+  margin: 30px;
 }
 
 .Button {
@@ -95,4 +95,55 @@
 
 .net-btn:hover::after {
   content: "Netlify";
+}
+
+.replit-icon {
+  height: 40px;
+}
+
+.rep-btn:hover::after {
+  content: "Replit";
+}
+
+.rep-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .project-card {
+    height: 200px;
+    width: 200px;
+  }
+
+  .pc1 {
+    height: 130px;
+    width: 200px;
+  }
+
+  .pc4 {
+    height: 130px;
+    width: 200px;
+  }
+
+  .pc5 {
+    width: 200px;
+  }
+
+  .net-btn {
+    width: 100px;
+    height: 50px;
+  }
+
+  .gh-btn {
+    width: 100px;
+    height: 50px;
+  }
+
+  .rep-btn {
+    width: 100px;
+    height: 50px;
+  }
 }
