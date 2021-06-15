@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.heading {
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading p {
+  color: white;
+  font-size: 70px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+#particles-js {
+  background: #111;
+  height: 100vh;
+  width: 100vw;
+}
+
+.description {
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+}

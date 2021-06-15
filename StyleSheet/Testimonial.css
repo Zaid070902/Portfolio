@@ -1,0 +1,39 @@
+.contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5% 5%;
+  color: white;
+}
+
+#Testimonial {
+  background-color: #111;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Test {
+  box-shadow: 0 5px 20px black;
+  margin: 20%;
+}
+
+.persons-name {
+  padding-top: 10px;
+}
+
+.Title {
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contents {
+    padding: 10%;
+    font-size: 10px;
+  }
+
+  .Test {
+    width: 200px;
+    margin-top: 100%;
+  }
+}

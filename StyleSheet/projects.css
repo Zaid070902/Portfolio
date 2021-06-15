@@ -1,0 +1,142 @@
+#projects-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #111;
+  height: auto;
+  width: 100vw;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: 0 6px 25px black; */
+}
+
+.project-card {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 5px 15px black;
+  margin: 30px;
+}
+
+.project-card:hover {
+  box-shadow: 0 5px 15px red;
+  transition: 1s;
+}
+
+.Button {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  margin: 5%;
+  box-shadow: 0 5px 20px black;
+  width: 200px;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Button:hover {
+  box-shadow: 0 5px 20px black;
+  color: cyan;
+  transition: 1.5s;
+}
+
+.card-img {
+  padding: 10px;
+}
+
+.pc1 {
+  height: 270px;
+  width: 400px;
+}
+
+.pc4 {
+  height: 270px;
+  width: 400px;
+}
+
+.pc5 {
+  height: 270px;
+  width: 400px;
+}
+
+.iconify {
+  font-size: 40px;
+}
+
+.gh-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.net-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.replit-icon {
+  height: 40px;
+}
+
+.rep-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.ghub {
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .project-card {
+    height: 200px;
+    width: 200px;
+  }
+
+  .pc1 {
+    height: 130px;
+    width: 200px;
+  }
+
+  .pc4 {
+    height: 130px;
+    width: 200px;
+  }
+
+  .pc5 {
+    width: 200px;
+  }
+
+  .net-btn {
+    width: 100px;
+    height: 50px;
+  }
+
+  .gh-btn {
+    width: 100px;
+    height: 50px;
+  }
+
+  .rep-btn {
+    width: 100px;
+    height: 50px;
+  }
+}
