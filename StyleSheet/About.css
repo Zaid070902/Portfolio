@@ -60,7 +60,7 @@
   }
 
   .my-img {
-    margin-top: 200px;
+    /* margin-top: 200px; */
     /* margin-right: 30px; */
   }
 
@@ -70,5 +70,10 @@
 
   .About-me {
     font-size: 10px;
+  }
+
+  #about-section {
+    display: flex;
+    flex-direction: column;
   }
 }
