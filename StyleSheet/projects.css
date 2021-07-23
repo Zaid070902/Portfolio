@@ -4,7 +4,7 @@
   justify-content: center;
   background-color: #111;
   height: auto;
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 .project {
@@ -49,7 +49,7 @@
 
 .Button:hover {
   box-shadow: 0 5px 20px black;
-  color: cyan;
+  color: red;
   transition: 1.5s;
 }
 

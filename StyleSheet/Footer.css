@@ -9,7 +9,7 @@ footer {
   align-items: flex-start;
   flex-direction: column;
   border-top: 1px solid red;
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 .ZF {

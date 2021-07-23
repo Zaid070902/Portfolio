@@ -5,11 +5,12 @@ body {
 .heading {
   position: absolute;
   text-align: center;
-  top: 40%;
+  top: 20%;
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 .heading p {
   color: white;
@@ -18,14 +19,37 @@ body {
   letter-spacing: 2px;
 }
 
+.land {
+  background-color: #111;
+}
+
 #particles-js {
-  background: #111;
+  /* background: #111; */
   height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
+  background: none;
 }
 
 .description {
   color: white;
   font-size: 20px;
   font-weight: 200;
+}
+
+.image {
+  /* border: 3px red solid; */
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  object-fit: fill;
+  margin-top: 50px;
+  box-shadow: 0 5px 20px black;
+  /* background: none; */
+  font-size: 40px;
+  position: relative;
+  margin-right: 30px;
+  z-index: 100;
+}
+
+.my-name {
 }

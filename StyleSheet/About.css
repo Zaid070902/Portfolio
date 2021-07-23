@@ -1,5 +1,5 @@
 #about-section {
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   display: flex;
   /* justify-content: center; */
@@ -15,10 +15,6 @@
   /* width: 40%; */
   padding-left: 50px;
   /* box-shadow: 0 5px 20px cyan; */
-}
-
-.my-name {
-  font-size: 40px;
 }
 
 .about-heading {
@@ -40,17 +36,6 @@
 
 .About-me {
   margin-top: 30px;
-}
-
-.image {
-  border: 3px red solid;
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  object-fit: fill;
-  margin-top: 100px;
-  box-shadow: 0 5px 20px black;
-  margin-right: 30px;
 }
 
 @media only screen and (max-width: 600px) {
