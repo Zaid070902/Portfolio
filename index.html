@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./Images/icons8-zello-100.png"
+    />
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script
       src="https://kit.fontawesome.com/c0daf1dc6c.js"
@@ -58,7 +63,7 @@
         </li>
 
         <li class="navbar-link">
-          <a href="#contact-form" class="link-text" >Contact</a>
+          <a href="#contact_section" class="link-text" >Contact</a>
         </li>
 
       </ul>
@@ -112,10 +117,9 @@
 
         <!-- Education section -->
         <section id="education-section">
-          <div class="Section-heading">
-            Education
-          </div>
           <div class="section-items">
+            <div class="Section-heading">Education</div>
+            <div class="edu-items">
           <div class="school">
             <p class="head"><i class="fas fa-school"></i></p>
             <p class="edu_desc"><ul class="edulist">
@@ -142,6 +146,7 @@
             </ul></p>
           </div>
         </div>
+      </div>
         </section>
         <!-- Education section -->
     
@@ -220,6 +225,7 @@
 
     <!-- Projects -->
     <section id="projects-section">
+      <div class="Projects-heading">Projects</div>
       <div class="project">
         <div class="project-card p1">
           <img class="card-img pc1" src="./Images/Form.png" alt="" />
@@ -404,30 +410,29 @@
 
 
   <!--Contact-Form-->
-  <section class="contact_section">
-  <form
+  <section id="contact_section">
+    <div class="contact-items">
+    <div class="LCE">
+      <div class="location it">
+        <i class="fas fa-map-marker-alt detail-icon con"></i>
+        <p class="details">South Africa, Western Cape</p>
+      </div>
+      <div class="cell it">
+        <i class="fas fa-phone-volume detail-icon con"> </i>
+        <p class="details">+27 74 018 4296 </p>
+      </div>
+      <div class="email it">
+        <i class="fas fa-paper-plane detail-icon con"></i>
+        <p class="details">Zaidflandorp4@gmail.com</p>
+      </div>
+    </div>
+    
+
+    <form
   action="https://formspree.io/f/mayaqzwn"
   method="POST"
-  id="contact-form"
+  class="contact-form"
 >
-
-<div class="LCE">
-  <div class="location">
-    <i class="fas fa-map-marker-alt detail-icon"></i>
-    <p class="details">
-      South Africa, Western Cape
-    </p>
-  </div>
-  <div class="cell">
-    <i class="fas fa-phone-volume detail-icon"> </i>
-    <p class="details">+27 74 018 4296 </p>
-  </div>
-  <div class="email">
-    <i class="fas fa-paper-plane detail-icon"></i>
-    <p class="details">Zaidflandorp4@gmail.com</p>
-  </div>
-</div>
-
 <div class="Contact-Form">
 <div class="form-items">
     <input
@@ -477,6 +482,8 @@
 </div>
 </div>
 </form>
+</div>
+</section>
 
 
   <!--Contact-Form-->
@@ -485,7 +492,6 @@
  <p class="ZF"> Zaid Flandorp</p>
  <p class="my-email">zaidflandorp4@gmail.com</p>
 </div>
-</section>
 </footer>  
 
 

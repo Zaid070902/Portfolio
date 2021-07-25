@@ -4,16 +4,17 @@
   background-color: #111;
 }
 
+.skill-box {
+  margin-left: -10px;
+}
+
 .skill-heading {
-  display: flex;
-  /* justify-content: center; */
-  padding-top: 10%;
   font-size: 20px;
+  display: flex;
+  margin-bottom: 40px;
   font-weight: 100;
-  padding-bottom: 5%;
   color: white;
-  margin-left: 105px;
-  letter-spacing: 2px;
+  margin-left: 50px;
 }
 
 .skill-heading::before {
@@ -32,6 +33,7 @@
   color: white;
   font-size: 50px;
   flex-wrap: wrap;
+  margin-left: -10px;
 }
 
 .skill {

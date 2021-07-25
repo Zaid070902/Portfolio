@@ -1,13 +1,32 @@
 #projects-section {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   background-color: #111;
   height: auto;
   /* width: 100vw; */
 }
 
+.Projects-heading {
+  font-size: 20px;
+  display: flex;
+  margin-bottom: 40px;
+  font-weight: 100;
+  margin-left: 50px;
+  color: white;
+}
+
+.Projects-heading::before {
+  content: "";
+  /* position: absolute; */
+  background: white;
+  height: 1px;
+  width: 50px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
 .project {
+  display: flex;
+  flex-wrap: wrap;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
